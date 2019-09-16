@@ -1,0 +1,10 @@
+.perfil{
+  float: left;
+  background-color: #AAABB8;
+  width: 24vh;
+  height: 33vh;
+}
+#imgPerfil{
+  height: 14vh;
+  width: 17vh;
+}
