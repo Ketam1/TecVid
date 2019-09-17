@@ -3,10 +3,11 @@ Paleta de Cor
 
 Roxo: #25274D
 Roxo Claro: #464866
-Cinza: #AAAABB8
+Cinza: #AAAABB
 Azul Claro: #2E9CCA
 Azul Escuro: #29648A
 */
 body{
   background-color: #25274D;
+  margin: 0;
 }
