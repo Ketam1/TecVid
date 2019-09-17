@@ -8,3 +8,17 @@
   height: 14vh;
   width: 17vh;
 }
+.buttonSideNav{
+  height: 6vh;
+  width: 9vh;
+  font-size: 2vh;
+}
+.three_bar_img{
+  width: 9vh;
+  height: 6vh;
+  position: relative;
+  left: 0px;
+}
+#imgFundoPerfil{
+  width: 32vh;
+}

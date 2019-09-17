@@ -1,0 +1,15 @@
+.centralOfertas{
+  position: relative;
+    left: 33vh;
+    width: 67vw;
+    height: 100vh;
+}
+.oferta{
+  height: 18vh;
+  left: 33vh;
+  width: 66vw;
+  border-style: double;
+  border-color: black;
+  border-width: 1vh;
+  margin: 2vh;
+}
