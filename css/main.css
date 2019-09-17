@@ -8,7 +8,11 @@ Azul Claro: #2E9CCA
 Azul Escuro: #29648A
 */
 body{
+<<<<<<< Updated upstream
   background-color: #AAAABB;
+=======
+  background-color: white;
+>>>>>>> Stashed changes
   margin: 0;
 }
 rgb(170, 170, 187)

@@ -5,8 +5,7 @@
     <title>TECVID</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/searchbar.css">
-
+    <link rel="stylesheet" href="css/materialize.css">
   </head>
   <body>
     <header>
@@ -22,7 +21,22 @@
         </div>
       </div>
       <div class="headerBottom">
-
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="slide-out" class="sidenav">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="img/logo_600x360.png"></a>
+            <a href="#name"><span class="white-text name">John Doe</span></a>
+            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+          <li><a href="#!">Second Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
       </div>
     </header>
     <div class="searchArea">
@@ -38,4 +52,5 @@
 
     </footer>
   </body>
+  <script src="js/materialize.js" charset="utf-8"></script>
 </html>
