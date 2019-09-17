@@ -1,79 +1,20 @@
 /*
 Paleta de Cor
 
-Roxo: #25274D
-Roxo Claro: #464866
-Cinza: #AAAABB
+Roxo: #080820
+Roxo Escuro: #0B0B23
+Cinza: #31334A
 Azul Claro: #2E9CCA
 Azul Escuro: #29648A
 */
 body{
-<<<<<<< Updated upstream
-  background-color: #AAAABB;
-=======
-  background-color: white;
->>>>>>> Stashed changes
   margin: 0;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(47,47,85,1) 0%, rgba(7,7,32,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-header{
-  background-color: #464866;
-  width: 100%;
-  height: 120px;
-}
-
-
-.headerTop{
-  width: 100%;
-  height: 80px;
-  border-bottom: 2px solid #6a6d99;
-}
-
-.headerLeft{
-  float: left;
-  padding-top: 10px;
-  margin-left: 15%;
-}
-
-.headerTitle{
-  color: lightblue;
-  font-size: 50px;
-}
-
-
-.headerRight{
-  float: right;
-  padding-top: 30px;
-  margin-right: 15%;
-}
-
-.headerLogin, .headerRegister{
-  font-size: 20px;
-  color: lightblue
-}
-
-.headerRegister{
-  margin-left: 20px;
-}
-
-.headerBottom{
-  border-bottom: 2px solid #6a6d99;
-  height: 38px;
-}
-
-#imgPerfil{
-  width: 300px;
-}
-
-#imgFundoPerfil{
-  width: 100%;
-}
-
-.three_bar_img{
-  width: 70px;;
-  height: 60px;
-}
-
-.sidenav{
-  width: 300px;
+html{
+  height: 100%
 }
