@@ -2,31 +2,63 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/pagina2/divPerfil.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/pagina2/ofertas.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
+
     <title></title>
   </head>
   <body>
+
     <header>
       <div class="headerTop">
         <div class="headerLeft">
           <span class="headerTitle">TECVID</span>
         </div>
-        <div class="headerMid">
-        </div>
         <div class="headerRight">
           <span class="headerLogin">Entrar</span>
           <span class="headerRegister">Registrar</span>
         </div>
+        <div class="headerMid">
+          <div class="wrap">
+            <div class="search">
+              <input type="text" class="searchTerm browser-default" placeholder="Pelo que procura?">
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="headerBottom">
         <a href="#" data-target="slide-out" class="sidenav-trigger">
-              <img src="img\three_bar_img.jpg" class="three_bar_img">
+          <img src="img\three_bar_img.png" class="three_bar_img">
         </a>
+        <div class="headerList">
+          <ul id="menu">
+            <li><a href="#">Edição de Vlogs</a></li>
+            <li><a href="#">Edição de Imagens</a></li>
+            <li><a href="#">Edição de Gameplay</a></li>
+            <li><a href="#">Edição de Viagens</a></li>
+          </ul>
+        </div>
       </div>
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="img/fundoPerfil.jpg" id="imgFundoPerfil">
+          </div>
+          <a href="#user"><img class="circle" src="img/logo_600x360.png"></a>
+          <a href="#name"><span class="white-text name">Genérico</span></a>
+          <a href="#email"><span class="white-text email">generico@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!">Configurações</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Situação dos serviços</a></li>
+        <li><a class="waves-effect" href="#!">Trabalhos</a></li>
+        <li><a class="waves-effect" href="#!">Pedidos</a></li>
+      </ul>
     </header>
 
     <ul id="slide-out" class="sidenav">
@@ -46,6 +78,14 @@
     </ul>
     <div class="centralOfertas">
       <section class="oferta">
+        <span><img class="imgOferta" src="img/logo_600x360.png"></span>
+        <span class="informacao">
+          <h1>Titulo aleatorio</h1>
+          <h2>Descrição</h2>
+        </span>
+        <div class="estrelas">
+          Avaliação 4.3/5
+        </div>
 
       </section>
       <section class="oferta">
