@@ -4,31 +4,27 @@
   width: 67vw;
   height: 100vh;
 }
+
 .oferta{
   display: flex;
   justify-content: flex-start;
   height: 10.5em;
   left: 33vh;
   width: 66vw;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  border-radius: 1em;
   margin-top: 4vh;
   margin-left: 1vh;
-  background-color: #4a4b67;
+  background-color: #17172e;
   font-family: Bebas;
   color: white;
   letter-spacing: 5px;
+  box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 .imgOferta{
   float: left;
   margin: 5px;
   height: 9.8em;
   width: 14em;
-  border-radius: 9%;
-  border-style: solid;
-  border-color: rgba(47,47,85,1);
 }
 
 .informacao{

@@ -1,16 +1,9 @@
-/*
-Paleta de Cor
 
-Roxo: #080820
-Roxo Escuro: #0B0B23
-Cinza: #31334A
-Azul Claro: #2E9CCA
-Azul Escuro: #29648A
-*/
 body{
+  position: relative;
   margin: 0;
   height: 100%;
-  background: linear-gradient(180deg, rgba(47,47,85,1) 0%, rgba(7,7,32,1) 100%);
+  background: #070720;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

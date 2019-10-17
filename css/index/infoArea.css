@@ -1,12 +1,18 @@
-.infoArea{
-  display: flex;
-  justify-content: flex;
-  height: 75vh;
-  width: 100%;
-  background-color: #222238;
+@font-face {
+  font-family: Bebas;
+  src: url(font/BebasNeue-Regular.otf);
 }
 
-.infoImg{
+.infoArea{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #0e0e40;
+  margin-top: 20px;
+  height: 75vh;
+  width: 100%;
+}
+
+.imgArea{
   float: right;
   width: 60%;
   object-fit: cover;
@@ -14,12 +20,24 @@
   clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.infoTxt{
-  width: 40%;
+.textArea{
+  width: 60%;
+  margin-left: 50px;
+  height: 75vh;
   float: left;
-  text-align: center;
+  position: relative;
 }
 
-.infoTxt p{
+.textContainer{
+  font-family: Bebas;
+  color: #9292c2;
 
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
 }
