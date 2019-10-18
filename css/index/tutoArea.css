@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Bebas;
+  src: url(font/BebasNeue-Regular.otf);
+}
+
+.stepsArea{
+  display: flex;
+  justify-content: flex-start;
+
+  background-color: #0e0e40;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 60vh;
+  width: 100%;
+
+
+  font-family: Bebas;
+  color: #9292c2;
+}
+
+.step{
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 30%;
+  height: 60vh;
+}
+
+.step p{
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.classTitulo{
+  text-align: justify;
+}

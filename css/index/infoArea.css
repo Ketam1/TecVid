@@ -8,14 +8,15 @@
   justify-content: flex-start;
   background-color: #0e0e40;
   margin-top: 20px;
-  height: 75vh;
+  height: 80vh;
   width: 100%;
 }
 
 .imgArea{
   float: right;
   width: 60%;
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: url("../../img/infoImg2.jpg");
   clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -23,7 +24,7 @@
 .textArea{
   width: 60%;
   margin-left: 50px;
-  height: 75vh;
+  height: 80vh;
   float: left;
   position: relative;
 }
