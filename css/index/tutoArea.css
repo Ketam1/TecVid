@@ -26,12 +26,14 @@
   height: 60vh;
 }
 
+
 .step p{
   text-align: center;
   font-size: 25px;
   letter-spacing: 3px;
 }
 
-.classTitulo{
-  text-align: justify;
+.stepTitulo{
+    line-height: 110%;
+    margin: 2.8rem 0 1.68rem 0;
 }
